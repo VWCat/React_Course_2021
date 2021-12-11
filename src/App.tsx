@@ -2,14 +2,16 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
-const App = function bar() {
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit
+          <span> </span>
           <code>src/App.tsx</code>
+          <span> </span>
           and save to reload.
         </p>
         <a

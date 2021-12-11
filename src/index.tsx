@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
 import "./index.css";
+import App from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -9,3 +9,9 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById("root")
 );
+
+// const element = <h1 className="test">HELLO WORLD</h1>;
+
+// const elementTwo = React.createElement("h1", { className: "test" }, "Hello");
+
+// ReactDOM.render(elementTwo, document.getElementById("root"));
