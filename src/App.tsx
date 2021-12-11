@@ -1,27 +1,14 @@
 import React from "react";
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
+import ProductCounter from "./ProductCounter";
 
 const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit
-          <span> </span>
-          <code>src/App.tsx</code>
-          <span> </span>
-          and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer">
-          Learn React
-        </a>
-      </header>
+      <ProductCounter product={{ productName: "Orange", count: 5 }} />
+      <ProductCounter product={{ productName: "Apple", count: 7 }} />
+      <ProductCounter product={{ productName: "Pineapple" }} />
     </div>
   );
 };
