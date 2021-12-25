@@ -1,23 +1,26 @@
-import React, { useState } from "react";
+import React from "react";
+// import React, { useState } from "react";
 // import logo from "./logo.svg";
 import "./App.css";
+// import Form from "./Form";
 // import ProductCard from "./ProductCard";
 // import Rating from "./ProductCard/rating";
 // import ProductCounter from "./ProductCounter";
 // import Logo from "./img/logo192.png";
-import AppleImg from "./img/Apple-256x256.png";
-import OrangeImg from "./img/Orange-256x256.png";
-import PearImg from "./img/Pear-256x256.png";
-import ProductCounter from "./ProductCounter";
+// import AppleImg from "./img/Apple-256x256.png";
+// import OrangeImg from "./img/Orange-256x256.png";
+// import PearImg from "./img/Pear-256x256.png";
+// import ProductCounter from "./ProductCounter";
+import RegistrationPage from "./RegistrationPage";
 
 const App = () => {
-  const [appleCount, setAppleCount] = useState(0);
-  const [orangeCount, setOrangeCount] = useState(0);
-  const [pearCount, setPearCount] = useState(0);
+  // const [appleCount, setAppleCount] = useState(0);
+  // const [orangeCount, setOrangeCount] = useState(0);
+  // const [pearCount, setPearCount] = useState(0);
 
   return (
     <div className="App">
-      <ProductCounter
+      {/* <ProductCounter
         productName="Apple"
         count={appleCount}
         setCount={setAppleCount}
@@ -35,6 +38,19 @@ const App = () => {
         setCount={setPearCount}
         productImage={PearImg}
       />
+      <ProductCounter
+        productName="Apple"
+        count={appleCount}
+        setCount={setAppleCount}
+        productImage={AppleImg}
+      />
+      <ProductCounter
+        productName="Orange"
+        count={orangeCount}
+        setCount={setOrangeCount}
+        productImage={OrangeImg}
+      /> */}
+      <RegistrationPage />
       {/* <ProductCard
         product={{
           productName: "Яблоко",

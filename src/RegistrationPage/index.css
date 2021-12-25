@@ -1,0 +1,33 @@
+.page_wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  height: 60px;
+  width: 100%;
+  background-color: cornflowerblue;
+  text-align: center;
+}
+.footer {
+  height: 40px;
+  width: 100%;
+  background-color: darkblue;
+  text-align: center;
+}
+h1 {
+  padding: 0;
+  margin: 0;
+}
+.main {
+  background-color: darkgoldenrod;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: calc(100% - 100px);
+}
